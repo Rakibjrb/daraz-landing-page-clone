@@ -13,8 +13,9 @@
 </head>
 
 <body>
+    <!-- navigation menu section -->
     <div class="bg-brand pb-10">
-        <nav class="max-w-[1280px] mx-auto">
+        <nav class="max-w-[1180px] mx-auto">
             <!-- top nav -->
             <div class="text-white">
                 <ul class="flex gap-7 justify-end">
@@ -71,6 +72,55 @@
             </div>
         </nav>
     </div>
+
+    <!-- slider section -->
+    <section class="max-w-[1180px] mx-auto flex">
+        <!-- main banner div -->
+        <div class="w-[80%] relative">
+            <img class="h-[380px]" src="./images/slider-image.png" alt="banner">
+            <button class="absolute left-0 top-1/2 bg-gray-700/50 w-[40px] h-[40px] rounded-full text-white">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="absolute right-0 top-1/2 bg-gray-700/50 w-[40px] h-[40px] rounded-full text-white">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <!-- right section -->
+        <div class="w-[20%] bg-gradient-to-b from-[#FFFAF7] to-orange-400 p-4 space-y-2">
+            <div class="flex gap-4 items-center">
+                <img class="w-[50px]" src="./images/small-logo.png" alt="daraz-logo" />
+                <div>Get The App</div>
+            </div>
+            <div class="bg-gradient-to-b from-orange-400 to-pink-600 p-1">
+                <div class="border-[0.2px] border-white/50">
+                    <div class="flex items-center text-white"><i class="fa-solid fa-star"></i> 4.8 Rated</div>
+                    <div class="py-2 px-8 space-y-2">
+                        <div class="text-center text-white mb-4">Download App</div>
+                        <div class="flex gap-4 items-center">
+                            <div class="bg-white w-[40px] h-[40px] flex justify-center items-center rounded-[10px]">
+                                <i class="fa-solid fa-truck text-2xl"></i>
+                            </div>
+                            <span>Free Delivery</span>
+                        </div>
+                        <div class="flex gap-4 items-center">
+                            <div class="bg-white w-[40px] h-[40px] flex justify-center items-center rounded-[10px]">
+                                <i class="fa-solid fa-truck text-2xl"></i>
+                            </div>
+                            <span>Free Delivery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex gap-4">
+                <div class="w-[44%] h-[80px] bg-white flex items-center justify-center">QR</div>
+                <div class="flex flex-col gap-4">
+                    <button class="px-2 py-1 border rounded-[14px] text-sm">Google Play</button>
+                    <button class="px-2 py-1 border rounded-[14px] text-sm">App Store</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
