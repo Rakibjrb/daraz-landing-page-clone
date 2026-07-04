@@ -5,3 +5,14 @@
 .bg-brand {
     background-color: var(--daraz-brand-color);
 }
+
+.input-field {
+    border: 1px solid black;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.input-field::placeholder {
+    color: rgb(99, 99, 99);
+}
